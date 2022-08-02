@@ -1,0 +1,7 @@
+/*.*
+/fdroid/*.*
+/fdroid/tmp/*.*
+/fdroid/srclib/*.
+
+!README.md
+!.gitignore
