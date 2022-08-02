@@ -2,7 +2,8 @@ AntiFeatures:
   - NSFW
   - NonFreeNet
 Categories:
-  - repo
+  - Multimedia
+  - Internet
 License: GPL-3.0-or-later
 AuthorName: tarsin
 SourceCode: https://github.com/Ehviewer-Overhauled/Ehviewer
