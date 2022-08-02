@@ -1,9 +1,20 @@
-AuthorName: ''
+AntiFeatures:
+  - NSFW
+  - NonFreeNet
 Categories:
-- repo
+  - repo
+License: GPL-3.0-or-later
+AuthorName: tarsin
+SourceCode: https://github.com/Ehviewer-Overhauled/Ehviewer
+IssueTracker: https://github.com/Ehviewer-Overhauled/Ehviewer/issues
+Changelog: https://github.com/Ehviewer-Overhauled/Ehviewer/releases
+
+AutoName: EhViewer
+Description: |-
+    EhViewer fork dedicated to lightweight and high-performance,
+    with Material Design 3 and Dynamic Color Support.
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersion: 1.8.0.4
 CurrentVersionCode: 2147483647
-IssueTracker: ''
-Name: EhViewer
-SourceCode: ''
-Summary: ''
-WebSite: ''
