@@ -1,0 +1,26 @@
+# see https://gitlab.com/fdroid/fdroidserver/blob/2.1/examples/config.yml
+
+repo_name:  Ehviewer-Overhauled Repo
+
+repo_url: https://raw.githubusercontent.com/Ehviewer-Overhauled/fdroid-repo/master/fdroid/repo
+
+repo_description: |-
+  Official F-Droid repo for Ehviewer-Overhauled.
+
+sdk_path: $ANDROID_HOME
+
+
+keystore: keystore.p12
+
+
+keystorepass: 7Tmq8c1JZSE0wDZcubdUqoIs5QCUcTMe9Pt/DDcDyZQ=
+
+
+keypass: 7Tmq8c1JZSE0wDZcubdUqoIs5QCUcTMe9Pt/DDcDyZQ=
+
+
+repo_keyalias: 2c82b69f95dd
+
+
+keydname: CN=2c82b69f95dd, OU=F-Droid
+
