@@ -1,0 +1,44 @@
+name: Deploy
+
+on:
+  push:
+    paths:
+      - 'fdroid/tmp-apks/*.apk'
+
+jobs:
+  linux:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup fdroidserver
+        run: |
+          sudo docker pull registry.gitlab.com/fdroid/docker-executable-fdroidserver:master
+
+      - name: Move apks
+        run: |
+          for i in fdroid/tmp-apks/*.apk; do mv $i fdroid/repo; done
+          rm -r fdroid/tmp-apks
+
+      - name: fdroid Update
+        run: |
+          cd fdroid
+          sudo docker run --rm -v $(pwd):/repo registry.gitlab.com/fdroid/docker-executable-fdroidserver:master update
+          cd ..
+
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Auto deploy'
+          add_options: '--all'
+          skip_checkout: true
+          disable_globbing: true
+
+      - name: Create Pull Request
+        if: ${{ startsWith(github.ref_name, 'deploy') }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --fill --base master
