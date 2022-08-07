@@ -424,5 +424,144 @@
     "antiFeatures": [],
     "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
     "name": "EhViewer"
+  },
+  "EhViewer-v1.8.1.0-alpha02-armv7.apk": {
+    "hash": "51d29acf1d8fcc0144e76b4c287fb054ba6dca92e794d8fdee9e0f95e075e3ad",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "moe.tarsin.ehviewer",
+    "versionCode": 180006,
+    "name": "EhViewer",
+    "versionName": "1.8.1.0-alpha02",
+    "minSdkVersion": 31,
+    "targetSdkVersion": 33,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "size": 4498024,
+    "apkName": "EhViewer-v1.8.1.0-alpha02-armv7.apk",
+    "added": 1659857090.031666
+  },
+  "EhViewer-v1.8.1.0-alpha02.apk": {
+    "hash": "769a9d4837481bdd4058bd4e6dd6958939329f956d2597546d10490dc77cd739",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "moe.tarsin.ehviewer",
+    "versionCode": 180006,
+    "name": "EhViewer",
+    "versionName": "1.8.1.0-alpha02",
+    "minSdkVersion": 31,
+    "targetSdkVersion": 33,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "size": 4590994,
+    "apkName": "EhViewer-v1.8.1.0-alpha02.apk",
+    "added": 1659857090.661764
+  },
+  "entry.json": {
+    "name": "entry",
+    "apkName": "entry.json",
+    "hash": "7c70013e6b09c431350e248f8ffaa8c15e8f03f47c4c6577e97786db930b6d3a",
+    "hashType": "sha256",
+    "versionCode": 0,
+    "versionName": "7c70013",
+    "packageName": "7c70013e6b09c431350e248f8ffaa8c15e8f03f47c4c6577e97786db930b6d3a",
+    "size": 1852,
+    "added": 1659857090.662421
+  },
+  "entry.jar": {
+    "name": "entry",
+    "apkName": "entry.jar",
+    "hash": "f4c69a3f8086899997584807895294efbff791129603f5200c5ceaf5de0d5726",
+    "hashType": "sha256",
+    "versionCode": 0,
+    "versionName": "f4c69a3",
+    "packageName": "f4c69a3f8086899997584807895294efbff791129603f5200c5ceaf5de0d5726",
+    "size": 3208,
+    "added": 1659857090.662558
+  },
+  "index-v2.json": {
+    "name": "index-v2",
+    "apkName": "index-v2.json",
+    "hash": "963633d65183f939d09608452e952fbd3c1e3ee18406831f92212a252b98588e",
+    "hashType": "sha256",
+    "versionCode": 0,
+    "versionName": "963633d",
+    "packageName": "963633d65183f939d09608452e952fbd3c1e3ee18406831f92212a252b98588e",
+    "size": 7825,
+    "added": 1659857090.662729
   }
 }

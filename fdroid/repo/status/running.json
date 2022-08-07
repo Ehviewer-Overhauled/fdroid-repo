@@ -1,8 +1,8 @@
 {
-  "/etc/issue.net": "Debian GNU/Linux 9",
+  "/etc/issue.net": "Ubuntu 20.04.4 LTS",
   "commandLine": [
-    "/usr/local/bin/fdroid update"
+    "/usr/bin/fdroid update"
   ],
-  "startTimestamp": 1659806064000,
+  "startTimestamp": 1659857088000,
   "subcommand": "update"
 }
