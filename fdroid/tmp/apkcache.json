@@ -750,5 +750,119 @@
     "apkName": "EhViewer-v1.8.2.0.apk",
     "hash": "885707911fd0555073d09ca7ff8011576d23eff2e7fbf3aa63ca8596909e5062",
     "sig": "06a6710ab1b04a0bbfdce9c04782ce2b"
+  },
+  "EhViewer-v1.8.2.1-armv7.apk": {
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "hashType": "sha256",
+    "targetSdkVersion": 33,
+    "uses-permission": [
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "icons": {},
+    "size": 4886735,
+    "minSdkVersion": 31,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "uses-permission-sdk-23": [],
+    "versionCode": 180010,
+    "added": 1661166793.49662,
+    "versionName": "1.8.2.1",
+    "hash": "165e0d779d3e1341f1982f3a2c3db882009d2d95ef16f02ed8524a626d10c629",
+    "features": [],
+    "name": "EhViewer",
+    "packageName": "moe.tarsin.ehviewer",
+    "apkName": "EhViewer-v1.8.2.1-armv7.apk",
+    "icons_src": {},
+    "antiFeatures": []
+  },
+  "EhViewer-v1.8.2.1.apk": {
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "hashType": "sha256",
+    "targetSdkVersion": 33,
+    "uses-permission": [
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "icons": {},
+    "size": 4980081,
+    "minSdkVersion": 31,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "uses-permission-sdk-23": [],
+    "versionCode": 180010,
+    "added": 1661166794.313353,
+    "versionName": "1.8.2.1",
+    "hash": "5e169cb2480da487db21a31c6c690d36c5d0a076e851e5c4ee8095ff6e7af39e",
+    "features": [],
+    "name": "EhViewer",
+    "packageName": "moe.tarsin.ehviewer",
+    "apkName": "EhViewer-v1.8.2.1.apk",
+    "icons_src": {},
+    "antiFeatures": []
   }
 }
