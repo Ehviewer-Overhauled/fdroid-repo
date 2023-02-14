@@ -2296,5 +2296,127 @@
     "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
     "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
     "packageName": "moe.tarsin.ehviewer"
+  },
+  "EhViewer-v1.8.6.0-alpha03-armv7.apk": {
+    "antiFeatures": [],
+    "hashType": "sha256",
+    "added": 1676364015.510635,
+    "apkName": "EhViewer-v1.8.6.0-alpha03-armv7.apk",
+    "versionName": "1.8.6.0-alpha03",
+    "packageName": "moe.tarsin.ehviewer",
+    "features": [],
+    "icons_src": {},
+    "size": 6157039,
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "versionCode": 180031,
+    "uses-permission-sdk-23": [],
+    "hash": "c90696a3719ec6ccf5c50c14e0f5ce593e25d655a3939f1d86c4ae96997dc867",
+    "name": "EhViewer",
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "icons": {},
+    "minSdkVersion": 28,
+    "uses-permission": [
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "targetSdkVersion": 33
+  },
+  "EhViewer-v1.8.6.0-alpha03.apk": {
+    "antiFeatures": [],
+    "hashType": "sha256",
+    "added": 1676364016.313846,
+    "apkName": "EhViewer-v1.8.6.0-alpha03.apk",
+    "versionName": "1.8.6.0-alpha03",
+    "packageName": "moe.tarsin.ehviewer",
+    "features": [],
+    "icons_src": {},
+    "size": 6231969,
+    "sig": "06a6710ab1b04a0bbfdce9c04782ce2b",
+    "versionCode": 180031,
+    "uses-permission-sdk-23": [],
+    "hash": "33fea6a82db77f8d02f86e2af3364775173e80e3c97f76c03ef0391e86e8d558",
+    "name": "EhViewer",
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "icons": {},
+    "minSdkVersion": 28,
+    "uses-permission": [
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "moe.tarsin.ehviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "signer": "5d91dff13b6489a9cfadbb197b3e795eefc8c39f849c4543f32c160720fb40a6",
+    "targetSdkVersion": 33
   }
 }
